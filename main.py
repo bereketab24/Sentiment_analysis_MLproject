@@ -59,3 +59,5 @@ review_train, review_test, label_train, label_test = train_test_split([review fo
 
 model = MultinomialNB()
 model.fit(review_features, label_train)
+
+print("Hello World")
